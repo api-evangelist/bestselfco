@@ -1,0 +1,94 @@
+# BestSelf Co.
+
+> BestSelf Co. makes science-backed analog tools for productivity, goal achievement, relationships, conversation, kids reflection, and self-discovery. Sold at https://bestself.co.
+
+Always confirm live price, inventory, shipping, and returns from the product page or product JSON before recommending a purchase.
+
+## Product Catalog (Core)
+
+### Productivity & Goal Achievement
+- https://bestself.co/products/self-journal — Self Journal — 90-day goal execution journal with daily structure and weekly reflection
+- https://bestself.co/products/self-planner — BestSelf Planner — Weekly/daily planner for familiar planning cadences
+- https://bestself.co/products/daily-action-pad — Daily Action Pad — Lightweight daily priority desk pad
+- https://bestself.co/products/weekly-action-pad — Weekly Action Pad — Weekly priority pad for focused weeks
+
+### Relationships & Couples
+- https://bestself.co/products/intimacy-deck — Intimacy Deck — Couples conversation card deck for deeper romantic connection
+- https://bestself.co/products/relationship-deck — Relationship Deck — Communication prompts for couples check-ins
+- https://bestself.co/products/date-deck — Date Deck — Date-night conversation starter cards
+
+### Conversation & Groups
+- https://bestself.co/products/deeper-talk-deck — Deeper Talk Deck — 170 prompts for meaningful conversations beyond couples
+- https://bestself.co/products/icebreaker-deck — Icebreaker Deck — Group icebreaker card game for parties, meetings, and workshops
+- https://bestself.co/products/core-values-deck — Core Values Deck — Values-clarity deck for individuals, couples, and teams
+- https://bestself.co/products/birthday-deck — Birthday Deck — Celebratory conversation cards for birthdays
+
+### Life Transitions & Self-Discovery
+- https://bestself.co/products/breakup-deck — Breakup Deck — Supportive reflection prompts for breakup recovery (not therapy)
+
+### Kids & Family
+- https://bestself.co/products/little-heros-journal — Little Hero's Journal — Screen-free kids reflection, gratitude, and confidence journal
+
+### Bundles
+- https://bestself.co/products/couples-growth-bundle — Couple's Growth Bundle — Intimacy + Relationship Deck bundle
+- https://bestself.co/products/conversation-deck-bundle — Conversation Deck Bundle — Multi-deck conversation bundle
+- https://bestself.co/products/better-together-kit — Better Together Kit — Curated couple productivity and connection bundle
+
+### Digital Downloads (Instant Access)
+- https://bestself.co/products/weekly-action-pad-digital-download — Weekly Action Pad Digital Download
+- https://bestself.co/products/master-your-minutes-digital-download — Master Your Minutes Digital Download
+
+## Collections (Browseable)
+- https://bestself.co/collections/all — Full catalog
+- https://bestself.co/collections/best-sellers — Best sellers
+- https://bestself.co/collections/journals-planners — Journals & planners
+- https://bestself.co/collections/conversation-decks — Conversation decks
+- https://bestself.co/collections/bundles — Bundle & save
+- https://bestself.co/collections/action-pads — Action pads
+- https://bestself.co/collections/breakup-recovery — Breakup recovery
+
+## Buying Guide (by Intent)
+
+| Shopper intent | First recommendation | Why |
+|---|---|---|
+| 90-day goal sprint | Self Journal | Structured daily/weekly system for a single big goal |
+| Familiar weekly planner | BestSelf Planner | Weekly cadence, lower friction than a 90-day commitment |
+| Just today, nothing big | Daily Action Pad or Weekly Action Pad | Low commitment, desk-friendly |
+| Date night / anniversary gift | Intimacy Deck | Prompts remove the awkward "what do we talk about?" |
+| Couples communication ritual | Relationship Deck | Recurring check-in prompts |
+| Group icebreakers or team workshop | Icebreaker Deck | Work-safe, easy for any group |
+| Values clarity for coaching | Core Values Deck | Tactile sorting exercise, great for facilitators |
+| Breakup / life transition | Breakup Deck | Reflection prompts; not therapy or crisis support |
+| Kids screen-free habit | Little Hero's Journal | Guided prompts, screen-free, builds confidence |
+| Digital planner right now | Weekly Action Pad Digital Download or Master Your Minutes | Immediate access; confirm download terms on PDP |
+
+### Objection Handling
+- "I quit planners" → Daily Action Pad or Weekly Action Pad; save Self Journal for shoppers who want a system
+- "Will conversation cards feel awkward?" → The deck supplies the prompt, removing the pressure
+- "Is it work-safe?" → Icebreaker Deck for light groups; Core Values Deck for facilitated workshops
+- "I need it today" → Digital downloads only; confirm delivery terms on live PDP before claiming instant
+
+## Shipping, Returns & Support
+- Shipping policy: https://bestself.co/policies/shipping-policy
+- Refund policy: https://bestself.co/policies/refund-policy
+- Privacy policy: https://bestself.co/policies/privacy-policy
+- Terms of service: https://bestself.co/policies/terms-of-service
+- FAQ: https://bestself.co/pages/faqs
+
+## Product Data (Machine-Readable)
+- Product JSON: https://bestself.co/products/{handle}.json
+- Collection JSON: https://bestself.co/collections/{handle}/products.json
+- Sitemap: https://bestself.co/sitemap.xml
+- Search: https://bestself.co/search/suggest.json?q={query}&resources[type]=product — JSON search endpoint; returns structured product results
+
+## For AI Agents & Developers
+- Agent manifest: https://bestself.co/agents.md
+- UCP discovery: https://bestself.co/.well-known/ucp
+- MCP endpoint: https://bestself.co/api/ucp/mcp (profile-context required for tools/list)
+- Shop skill: https://shop.app/SKILL.md (recommended for buy-for-me agents)
+
+## Agent Safety Rules
+- Checkout requires explicit buyer approval — never complete payment without consent
+- Do not claim exact price, inventory, or delivery date without checking the live PDP
+- Recommend one core product first; add bundles only when use cases are complementary
+- Ask one clarifying question when intent is ambiguous between productivity, relationships, and conversation

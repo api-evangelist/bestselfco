@@ -1,23 +1,66 @@
 aid: bestselfco
+
 name: Bestselfco
-description: 'Bestselfco is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.shopify.com/s/files/1/1015/4487/files/share-image.jpg?v=1748103047
+
+description: 'Bestselfco creates personal development tools, planners, journals, and decks aimed at improving productivity, relationships, and personal growth. Their product line includes the BestSelf Planner, Self Journal, Intimacy Deck, and various digital downloads, marketed through their e‑commerce site bestself.co.'
+
 url: https://raw.githubusercontent.com/api-evangelist/bestselfco/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-28 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-28'
+
 modified: '2026-09-28'
+
 tags:
-- Company
-apis: []
+- Personal Development
+- Productivity
+- Journals
+- E-commerce
+- Lifestyle
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/bestselfco-llms.txt
+- type: WellKnown
+  url: well-known/bestselfco-well-known.yml
+- type: Hosts
+  url: hosts/bestselfco-hosts.yml
+- type: Vendors
+  url: vendors/bestselfco-vendors.yml
+- type: DomainSecurity
+  url: security/bestselfco-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/bestselfco
+  url: https://bestself.co
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The site returns a JavaScript shell with no machine‑readable API spec.
+  evidence:
+    - url: https://bestself.co
+      status: 200
+  checked: '2026-09-28'
+x-enrichment:
+  date: '2026-09-28'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
