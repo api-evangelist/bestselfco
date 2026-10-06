@@ -19,7 +19,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-28'
 
-modified: '2026-09-28'
+modified: '2026-10-06'
 
 tags:
 - Personal Development
@@ -41,6 +41,10 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://bestself.co/blogs/articles
+  type: Blog
+- url: https://bestself.co/blogs/articles.atom
+  type: BlogRSS
 - type: LLMsTxt
   url: llms/bestselfco-llms.txt
 - type: WellKnown
